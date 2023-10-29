@@ -219,11 +219,9 @@ class Expsenses extends Component {
                     </Table>
                 </Container>
 
-                }
-
             </div>
 
-        );
+        );a
     }
 }
 
