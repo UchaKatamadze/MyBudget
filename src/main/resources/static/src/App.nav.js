@@ -27,5 +27,3 @@ class AppNav extends Component {
         );
     }
 }
-
-export default AppNav;
