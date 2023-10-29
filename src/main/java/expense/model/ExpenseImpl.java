@@ -22,6 +22,8 @@ public class ExpenseImpl {
 
     private Instant date;
 
+    private String ExpenseCategory;
+
     private String description;
 
 

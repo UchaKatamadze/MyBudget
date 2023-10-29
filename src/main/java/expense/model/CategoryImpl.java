@@ -15,7 +15,4 @@ public class CategoryImpl {
     private long id;
     private String name; // e.g. "Food", "Transportation", "Entertainment", "Utilities", "Rent", "Other"
 
-
-//    @ManyToOne(cascade = CascadeType.PERSIST)
-//    private User users;
 }
