@@ -7,6 +7,7 @@ import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Generated;
 import lombok.NoArgsConstructor;
 
 import java.util.Set;
@@ -17,8 +18,9 @@ import java.util.Set;
 @Table(name = "users")
 @Data
 public class User {
-    @Id
 
+    @Id
+    @Generated
     private long id;
     private String name;
     private String email;
